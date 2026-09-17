@@ -1,0 +1,26 @@
+# ===== 环境变量 / 密钥（务必不要提交）=====
+.env
+.env.*
+!.env.example
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# ===== 向量库（运行时生成，可由 data/ 里的资料重新入库）=====
+chroma.db/
+
+# ===== 历史会话记录（运行时数据，可能含隐私内容）=====
+conversation_history/
+
+# ===== 已入库资料的 MD5 指纹（运行时生成；缺失时程序会自动重建）=====
+md5.txt
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
